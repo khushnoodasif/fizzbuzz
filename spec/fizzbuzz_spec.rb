@@ -1,4 +1,4 @@
-require 'fizzbuzz'
+require './lib/fizzbuzz'
 
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 3' do
@@ -16,7 +16,6 @@ describe 'fizzbuzz' do
   it 'returns the number in all other cases' do
     expect(fizzbuzz(7)).to eq 7
   end
-
 end
 
   
